@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "note": "NAMUNA savollar (ikki tilli: KO+UZ). Rasmiy KOROAD banki savollari bilan almashtirilsin — har savolga question_ko/text_ko qo'shing.",
+    "version": "0.2",
+    "exam_blueprint": {
+      "2": {
+        "pass": 60,
+        "slots": {
+          "p2": 22,
+          "p3": 17,
+          "p5": 1
+        }
+      },
+      "1": {
+        "pass": 70,
+        "slots": {
+          "p2": 22,
+          "p3": 17,
+          "p5": 1
+        }
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "category": "sign",
+      "points": 2,
+      "select_count": 1,
+      "question_uz": "Quyidagi yo'l belgisi nimani bildiradi?",
+      "svg": "<svg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'><circle cx='60' cy='60' r='52' fill='#fff' stroke='#E5484D' stroke-width='12'/><text x='60' y='78' font-size='46' font-weight='800' text-anchor='middle' fill='#11161F'>50</text></svg>",
+      "options": [
+        {
+          "text_uz": "Tavsiya etilgan tezlik 50 km/soat",
+          "correct": false,
+          "text_ko": "권장 속도 50km/h"
+        },
+        {
+          "text_uz": "Eng yuqori ruxsat etilgan tezlik 50 km/soat",
+          "correct": true,
+          "text_ko": "최고 제한속도 50km/h"
+        },
+        {
+          "text_uz": "Eng past tezlik 50 km/soat",
+          "correct": false,
+          "text_ko": "최저 속도 50km/h"
+        },
+        {
+          "text_uz": "Keyingi shaharcha 50 km",
+          "correct": false,
+          "text_ko": "다음 도시까지 50km"
+        }
+      ],
+      "explanation_uz": "Qizil halqali aylana — taqiq/cheklov belgisi. Ichidagi raqam eng yuqori ruxsat etilgan tezlikni bildiradi. Bu tezlikdan oshib yurish mumkin emas.",
+      "question_ko": "다음 안전표지가 의미하는 것은?"
+    },
+    {
+      "id": "q002",
+      "category": "text_single",
+      "points": 2,
+      "select_count": 1,
+      "question_uz": "Bolalarni himoya qilish zonasida (어린이 보호구역) eng yuqori ruxsat etilgan tezlik qancha?",
+      "options": [
+        {
+          "text_uz": "20 km/soat",
+          "correct": false,
+          "text_ko": "20km/h"
+        },
+        {
+          "text_uz": "30 km/soat",
+          "correct": true,
+          "text_ko": "30km/h"
+        },
+        {
+          "text_uz": "40 km/soat",
+          "correct": false,
+          "text_ko": "40km/h"
+        },
+        {
+          "text_uz": "50 km/soat",
+          "correct": false,
+          "text_ko": "50km/h"
+        }
+      ],
+      "explanation_uz": "어린이 보호구역 (maktab zonasi)da tezlik 30 km/soat ga cheklangan. Bu yerdagi qoidabuzarlik uchun jarima va ball ikki baravar og'irroq.",
+      "question_ko": "어린이 보호구역에서의 최고 제한속도는?"
+    },
+    {
+      "id": "q003",
+      "category": "text_multi",
+      "points": 3,
+      "select_count": 2,
+      "scoring": "all_or_nothing",
+      "question_uz": "Spirtli ichimlik ta'sirida haydash haqida TO'G'RI ikkita javobni tanlang.",
+      "options": [
+        {
+          "text_uz": "Qondagi spirt darajasi 0.03% dan oshsa jazoga tortiladi",
+          "correct": true,
+          "text_ko": "혈중알코올농도 0.03% 이상이면 처벌 대상이다"
+        },
+        {
+          "text_uz": "0.08% va undan yuqori bo'lsa guvohnoma bekor qilinishi mumkin",
+          "correct": true,
+          "text_ko": "0.08% 이상이면 면허가 취소될 수 있다"
+        },
+        {
+          "text_uz": "Bir oz ichib haydash qonun bilan ruxsat etilgan",
+          "correct": false,
+          "text_ko": "소량의 음주 후 운전은 법적으로 허용된다"
+        },
+        {
+          "text_uz": "Faqat avariya bo'lsagina jazolanadi",
+          "correct": false,
+          "text_ko": "사고가 발생한 경우에만 처벌된다"
+        }
+      ],
+      "explanation_uz": "Koreyada 0.03% — jazo chegarasi. 0.08% dan oshsa guvohnoma bekor qilinadi. Ikkala to'g'ri javob tanlanishi shart — biri yetishmasa, ball berilmaydi.",
+      "question_ko": "음주운전에 대한 설명으로 옳은 것 2가지를 고르시오."
+    },
+    {
+      "id": "q004",
+      "category": "photo",
+      "points": 3,
+      "select_count": 2,
+      "scoring": "all_or_nothing",
+      "media": "img/photo/q004.jpg",
+      "media_note": "[Foto: piyodalar o'tish joyiga yaqinlashayotgan avtomobil, chetda piyoda turibdi]",
+      "question_uz": "Ushbu vaziyatda haydovchining to'g'ri harakatlari (2 ta):",
+      "options": [
+        {
+          "text_uz": "Tezlikni pasaytirib, to'xtashga tayyor turish",
+          "correct": true,
+          "text_ko": "속도를 줄이고 정지할 준비를 한다"
+        },
+        {
+          "text_uz": "Piyoda o'tib bo'lguncha kutish",
+          "correct": true,
+          "text_ko": "보행자가 건널 때까지 기다린다"
+        },
+        {
+          "text_uz": "Signal berib tez o'tib ketish",
+          "correct": false,
+          "text_ko": "경음기를 울리며 빠르게 지나간다"
+        },
+        {
+          "text_uz": "Piyoda hali yo'lga chiqmagani uchun e'tibor bermaslik",
+          "correct": false,
+          "text_ko": "보행자가 아직 도로에 진입하지 않았으므로 무시한다"
+        },
+        {
+          "text_uz": "Piyodani o'tkazmaslik uchun tezlashtirish",
+          "correct": false,
+          "text_ko": "보행자가 건너지 못하도록 가속한다"
+        }
+      ],
+      "explanation_uz": "Piyodalar o'tish joyida piyoda ustuvor. Haydovchi tezlikni pasaytirib, piyoda xavfsiz o'tib bo'lguncha kutishi shart.",
+      "question_ko": "이 상황에서 운전자의 올바른 행동 2가지는?"
+    },
+    {
+      "id": "q005",
+      "category": "illust",
+      "points": 3,
+      "select_count": 2,
+      "scoring": "all_or_nothing",
+      "media": "img/illus/q005.png",
+      "media_note": "[Illyustratsiya: chorraha, chapga burilmoqchi bo'lgan avtomobil, qarshidan to'g'ri kelayotgan mashina]",
+      "question_uz": "Chorrahada chapga burilayotganda to'g'ri ikkita qoida:",
+      "options": [
+        {
+          "text_uz": "Qarshidan to'g'ri keladigan transportga yo'l berish",
+          "correct": true,
+          "text_ko": "직진하는 마주 오는 차에 양보한다"
+        },
+        {
+          "text_uz": "Chorraha markazidan o'tib burilish",
+          "correct": true,
+          "text_ko": "교차로 중심 안쪽을 이용하여 좌회전한다"
+        },
+        {
+          "text_uz": "Birinchi bo'lib tez burilib olish",
+          "correct": false,
+          "text_ko": "먼저 빠르게 좌회전한다"
+        },
+        {
+          "text_uz": "Piyodalarga e'tibor bermaslik",
+          "correct": false,
+          "text_ko": "보행자를 신경 쓰지 않는다"
+        },
+        {
+          "text_uz": "Signalsiz burilish",
+          "correct": false,
+          "text_ko": "방향지시등 없이 좌회전한다"
+        }
+      ],
+      "explanation_uz": "Chapga burilishda qarshidan to'g'ri yo'nalishda kelayotgan transport ustuvor — unga yo'l berish kerak. Burilish chorraha markazidan amalga oshiriladi.",
+      "question_ko": "교차로에서 좌회전할 때 올바른 방법 2가지는?"
+    },
+    {
+      "id": "q006",
+      "category": "video",
+      "points": 5,
+      "select_count": 1,
+      "media": "img/video/q006.jpg",
+      "media_note": "[Video o'rnida MVP kadr: tor yo'lda oldindagi avtomobil to'satdan tormoz chiroqlarini yoqdi]",
+      "question_uz": "Videodagi vaziyatda eng to'g'ri harakat qaysi?",
+      "options": [
+        {
+          "text_uz": "Xavfsiz masofani saqlab, tormozga tayyor turish va tezlikni kamaytirish",
+          "correct": true,
+          "text_ko": "안전거리를 유지하고 제동을 준비하며 속도를 줄인다"
+        },
+        {
+          "text_uz": "Yon qatorga keskin o'tib ketish",
+          "correct": false,
+          "text_ko": "급하게 차로를 변경한다"
+        },
+        {
+          "text_uz": "Signal berib oldingi mashinani shoshiltirish",
+          "correct": false,
+          "text_ko": "경음기를 울려 앞차를 재촉한다"
+        },
+        {
+          "text_uz": "Masofani saqlamasdan yaqinlashish",
+          "correct": false,
+          "text_ko": "안전거리를 유지하지 않고 접근한다"
+        }
+      ],
+      "explanation_uz": "Oldingi transport tormozlaganda xavfsiz masofa saqlab, tezlikni kamaytirib, to'xtashga tayyor bo'lish kerak. Keskin manyovr yangi xavf yaratadi. Video savol 5 ball — eng yuqori qiymatli.",
+      "question_ko": "영상 속 상황에서 가장 올바른 운전 행동은?"
+    }
+  ]
+}
